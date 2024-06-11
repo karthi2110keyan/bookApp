@@ -1,0 +1,46 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.login_container{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-auto-rows: minmax(200px,auto);
+  place-items: center;
+}
+
+.login_section{
+display: grid;
+grid-column: 5/8;
+grid-row: 2/3;
+background-color: blue;
+    
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+.username{
+    padding: 1rem 6rem 1rem 0rem;
+    font-size: 1.5rem;
+}
+input{
+    width: 80%;
+    height: 30px;
+}
+ */
+
+
+ section{
+    display: flex;
+    flex-direction: column;
+ }

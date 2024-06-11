@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+:root{
+    --COLOR:#474242;
+}
+
+
+header{
+   
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+.cart-icon{
+    width: 40px;
+    height: 40px;
+    background-image: url(../icon/shopping-bag_4255772.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 33px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #babecc;
+}
+main{
+    height: 100vh;
+}
+
+.navigation-bar{
+    width: 100vw;
+    height: 50px;
+background-color: #EEEEEE;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.home-icon{
+    background-image:url(../icon/home_8872250.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+.search-icon{
+    background-image:url(../icon/search_10023966.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+.profile-icon{
+    background-image:url(../icon/profile-user_64572.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.book-icon{
+    background-image:url(../icon/label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
